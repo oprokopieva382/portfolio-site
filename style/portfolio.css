@@ -1,11 +1,14 @@
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
-  color: black;
-}
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
   font-weight: normal;
+}
+h2 {
+  font-size: 64px;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 
 :root {
@@ -22,7 +25,7 @@ p {
 .hero h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
-  font-size: 96px;
+  font-size: 100px;
   color: black;
 }
 .hero h2 {
@@ -39,4 +42,51 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+}
+.img-background {
+  padding: 60px 60px;
+  background: var(--secondary-color);
+}
+.project-description {
+  padding: 110px 60px;
+}
+.btn-branding-outlook {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 18px 30px;
+}
+.btn-branding-outlook:hover {
+  color: var(--branding-color);
+  font-weight: bold;
+}
+.project-description-area {
+  padding: 30px 60px;
+}
+.project-description-projects {
+  padding: 130px 60px;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .project-description-projects {
+    padding: 0;
+    text-align: center;
+  }
+  .project-description-area {
+    padding: 0;
+    text-align: center;
+  }
 }
