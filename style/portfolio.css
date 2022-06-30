@@ -68,6 +68,30 @@ h2 {
 .project-description-projects {
   padding: 130px 60px;
 }
+
+.about-section {
+  padding: 130px 60px;
+}
+
+.about-section h1 {
+  text-align: right;
+  font-size: 70px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+.about-section h2 {
+  text-align: right;
+  font-size: 60px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+.about-section .comment {
+  text-align: right;
+  font-size: 30px;
+  font-style: italic;
+  font-family: var(--default-font-family);
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     text-align: center;
