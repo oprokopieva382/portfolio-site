@@ -115,7 +115,26 @@ h3 {
   font-family: var(--default-font-family);
   font-size: 16px;
 }
-
+.head-materials {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 70px 20px;
+}
+.head-materialss {
+  padding-top: 20px;
+  font-weight: bold;
+}
+.brands-head {
+  margin-top: 150px;
+}
+.brands-position {
+  text-align: center;
+}
+.brands-logo {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 60px;
+}
 @media (max-width: 900px) {
   .hero h1 {
     text-align: center;
@@ -128,7 +147,6 @@ h3 {
   .list-of-cities {
     text-align: center;
   }
-
   .project-description {
     padding: 0;
     text-align: center;
