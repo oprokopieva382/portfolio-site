@@ -75,29 +75,29 @@ h3 {
   padding: 130px 60px;
 }
 
-.about-section {
+.content-container {
   padding: 130px 60px;
 }
 
-.about-section h1 {
+.content-container h1 {
   text-align: right;
   font-size: 70px;
   line-height: 80px;
   font-family: var(--heading-font-family);
 }
-.about-section h2 {
+.content-container h2 {
   text-align: right;
   font-size: 60px;
   line-height: 80px;
   font-family: var(--heading-font-family);
 }
-.about-section .comment {
+.content-container .content {
   text-align: right;
   font-size: 30px;
   font-style: italic;
   font-family: var(--default-font-family);
 }
-.comment {
+.content {
   padding-bottom: 120px;
 }
 .circular-square-alys,
@@ -135,6 +135,29 @@ h3 {
   margin: 0 auto;
   padding: 60px;
 }
+.content-work-container {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 120px 20px;
+}
+.content-work-container h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 100px;
+  color: black;
+}
+.content-work-container h4 {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  color: black;
+}
+.comment-content-container {
+  text-align: center;
+  font-size: 60px;
+  line-height: 80px;
+  font-family: var(--heading-font-family);
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     text-align: center;
