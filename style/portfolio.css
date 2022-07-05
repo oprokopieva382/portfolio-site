@@ -157,6 +157,31 @@ h3 {
   line-height: 80px;
   font-family: var(--heading-font-family);
 }
+nav {
+  padding: 20px 0 0 0;
+}
+nav p {
+  font-weight: bold;
+  font-size: 18px;
+}
+nav li {
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav a.active {
+  color: var(--branding-color);
+}
 
 @media (max-width: 991px) {
   .hero h1 {
