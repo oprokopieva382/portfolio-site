@@ -214,6 +214,16 @@ footer .social-links a:hover {
   background: var(--branding-color);
   transition: all 100ms ease-in-out;
 }
+footer .contact-box {
+  padding: 30px 120px;
+  background: var(--secondary-color);
+  margin-bottom: 48px;
+}
+
+footer h5 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
 @media (max-width: 991px) {
   .hero h1 {
     text-align: center;
@@ -239,6 +249,7 @@ footer .social-links a:hover {
     text-align: center;
   }
 }
+
 @media (max-width: 540px) {
   .content-work-container h1 {
     font-size: 60px;
