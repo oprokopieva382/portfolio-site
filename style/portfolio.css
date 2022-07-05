@@ -189,7 +189,31 @@ nav a:hover,
 nav a.active {
   color: var(--branding-color);
 }
-
+footer {
+  margin: 40px 0 40px 0;
+}
+footer .emaill-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .emaill-link a:hover {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a {
+  color: var(--branding-color);
+  font-size: 18px;
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  margin: 0 20px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
 @media (max-width: 991px) {
   .hero h1 {
     text-align: center;
