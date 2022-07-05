@@ -28,6 +28,9 @@ h3 {
   background-color: var(--secondary-color);
   padding: 160px 20px;
 }
+.hero a {
+  transition: all 100ms ease-in-out;
+}
 .hero h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
@@ -48,6 +51,7 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+  transition: all 100ms ease-in-out;
 }
 .img-background {
   padding: 60px 60px;
@@ -63,10 +67,12 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 18px 30px;
+  transition: all 100ms ease-in-out;
 }
 .btn-branding-outlook:hover {
   color: var(--branding-color);
   font-weight: bold;
+  transition: all 100ms ease-in-out;
 }
 .project-description-area {
   padding: 30px 60px;
@@ -178,6 +184,7 @@ nav a {
   color: #272142;
   transition: all 100ms ease-in-out;
 }
+
 nav a:hover,
 nav a.active {
   color: var(--branding-color);
